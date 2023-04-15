@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  padding: 15px;
+  text-align: center;
+}
+.main-heading {
+  font-family: "Roboto";
+  font-size: 45px;
+}
+.center-card {
+  text-align: center;
+}
+.small-card {
+  background-color: #fbbf24;
+  height: 25%;
+  width: 25%;
+}
+.medium-card {
+  background-color: #38bdf8;
+  height: 50%;
+  width: 50%;
+}
+.large-card {
+  background-color: #ec4899;
+  height: 75%;
+  width: 75%;
+}
+.text {
+  font-family: "Bree serif";
+  color: #ffffff;
+}
