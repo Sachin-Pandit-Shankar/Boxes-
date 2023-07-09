@@ -1,35 +1,54 @@
 /* Write your code here. */
-
 .bg-container {
-  background-color: #ffffff;
-  height: 100vh;
-  background-size: cover;
-  padding: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.main-heading {
+h1 {
+  color: #0f172a;
   font-family: "Roboto";
   font-size: 45px;
 }
-.center-card {
-  text-align: center;
+.box-container {
+  display: flex;
 }
-.small-card {
+.box1 {
   background-color: #fbbf24;
-  height: 25%;
-  width: 25%;
-}
-.medium-card {
-  background-color: #38bdf8;
-  height: 50%;
-  width: 50%;
-}
-.large-card {
-  background-color: #ec4899;
-  height: 75%;
-  width: 75%;
-}
-.text {
-  font-family: "Bree serif";
   color: #ffffff;
+  font-family: "Bree Serif";
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 12px;
+}
+.box2 {
+  background-color: #38bdf8;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 12px;
+}
+.box3 {
+  background-color: #ec4899;
+  color: #ffffff;
+  font-family: "Bree Serif";
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 12px;
 }
